@@ -3,8 +3,8 @@
 	<channel>
 		<title></title>
 		<description></description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Power Analysis</title>
@@ -24201,8 +24201,8 @@ Stacktrace:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
 				<pubDate>Tue, 21 Dec 2021 18:25:06 -0500</pubDate>
-				<link>/first-principles/2021/12/21/Power-Analysis.html</link>
-				<guid isPermaLink="true">/first-principles/2021/12/21/Power-Analysis.html</guid>
+				<link>http://localhost:4000/first-principles/2021/12/21/Power-Analysis.html</link>
+				<guid isPermaLink="true">http://localhost:4000/first-principles/2021/12/21/Power-Analysis.html</guid>
 			</item>
 		
 	</channel>
