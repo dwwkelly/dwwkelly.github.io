@@ -3,8 +3,8 @@
 	<channel>
 		<title>First Principles</title>
 		<description>A blog on DSP and SDR</description>
-		<link>http://localhost:4000/first-principles</link>
-		<atom:link href="http://localhost:4000/first-principles/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Power Analysis</title>
@@ -24201,8 +24201,8 @@ Stacktrace:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
 				<pubDate>Tue, 21 Dec 2021 18:25:06 -0500</pubDate>
-				<link>http://localhost:4000/first-principles/2021/12/Power-Analysis</link>
-				<guid isPermaLink="true">http://localhost:4000/first-principles/2021/12/Power-Analysis</guid>
+				<link>http://localhost:4000/2021/12/Power-Analysis</link>
+				<guid isPermaLink="true">http://localhost:4000/2021/12/Power-Analysis</guid>
 			</item>
 		
 	</channel>
