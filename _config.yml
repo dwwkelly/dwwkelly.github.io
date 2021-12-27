@@ -33,8 +33,16 @@ disqus: ''
 permalink: /:year/:month/:title
 paginate: 3
 
-highlighter: rouge
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: julia
+    css_class   : 'highlight'
+    span:
+      line_numbers: true
+      start_line: 1
 
 plugins: ['jekyll-paginate']
 
