@@ -3,8 +3,8 @@
 	<channel>
 		<title>First Principles</title>
 		<description>A blog on DSP and SDR</description>
-		<link>https://dwwkelly.github.io/</link>
-		<atom:link href="https://dwwkelly.github.io//feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Power Measurement</title>
@@ -24436,8 +24436,8 @@ SNR = 0.01 dB
 
 </description>
 				<pubDate>Tue, 21 Dec 2021 00:00:00 -0500</pubDate>
-				<link>https://dwwkelly.github.io//2021/12/Power-Analysis</link>
-				<guid isPermaLink="true">https://dwwkelly.github.io//2021/12/Power-Analysis</guid>
+				<link>http://localhost:4000/2021/12/Power-Analysis</link>
+				<guid isPermaLink="true">http://localhost:4000/2021/12/Power-Analysis</guid>
 			</item>
 		
 	</channel>
