@@ -10,7 +10,6 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/css/theme.css" rel="stylesheet" type="text/css">
     <link href="/css/syntax.css" rel="stylesheet" type="text/css">
-
     <script type="text/javascript">
 (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
 for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
@@ -128,7 +127,7 @@ A blog on DSP and SDR
 <span class="k">end</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>power (generic function with 2 methods)
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">power</span> <span class="x">(</span><span class="n">generic</span> <span class="k">function</span><span class="nf"> with</span> <span class="mi">2</span> <span class="n">methods</span><span class="x">)</span>
 </code></pre></div></div>
 
 <div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Parameters for our signals</span>
@@ -158,9 +157,9 @@ A blog on DSP and SDR
 <span class="nd">@printf</span> <span class="s">"SNR = %2.2f dB</span><span class="se">\n</span><span class="s">"</span> <span class="n">snr</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Avg Power of x = 0.00 dB
-Avg Power of noise = 0.02 dB
-SNR = -0.02 dB
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.00</span> <span class="n">dB</span>
+<span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">noise</span> <span class="o">=</span> <span class="mf">0.02</span> <span class="n">dB</span>
+<span class="n">SNR</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.02</span> <span class="n">dB</span>
 </code></pre></div></div>
 
 <div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">p_1</span> <span class="o">=</span> <span class="n">plot</span><span class="x">(</span><span class="n">Guide</span><span class="o">.</span><span class="n">title</span><span class="x">(</span><span class="s">"x (real valued signal)"</span><span class="x">),</span> <span class="n">Guide</span><span class="o">.</span><span class="n">ylabel</span><span class="x">(</span><span class="s">"Amplitude"</span><span class="x">,</span> <span class="n">orientation</span><span class="o">=:</span><span class="n">vertical</span><span class="x">),</span> <span class="n">Guide</span><span class="o">.</span><span class="n">xlabel</span><span class="x">(</span><span class="s">"Time [s]"</span><span class="x">))</span>
@@ -8065,9 +8064,9 @@ fig.select("#img-a0cd7344-252")
 <span class="nd">@printf</span> <span class="s">"Peak power %2.1f dB/Hz"</span> <span class="n">findmax</span><span class="x">(</span><span class="mi">10</span> <span class="o">.*</span> <span class="n">log10</span><span class="o">.</span><span class="x">(</span><span class="n">xf</span><span class="x">))[</span><span class="mi">1</span><span class="x">]</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Measured Noise Power -86.1 dB/Hz
-Theoretical Noise Power -86.1 dB/Hz
-Peak power -55.6 dB/Hz
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Measured</span> <span class="n">Noise</span> <span class="n">Power</span> <span class="o">-</span><span class="mf">86.1</span> <span class="n">dB</span><span class="o">/</span><span class="n">Hz</span>
+<span class="n">Theoretical</span> <span class="n">Noise</span> <span class="n">Power</span> <span class="o">-</span><span class="mf">86.1</span> <span class="n">dB</span><span class="o">/</span><span class="n">Hz</span>
+<span class="n">Peak</span> <span class="n">power</span> <span class="o">-</span><span class="mf">55.6</span> <span class="n">dB</span><span class="o">/</span><span class="n">Hz</span>
 </code></pre></div></div>
 
 <h1 id="complex-valued-signals">Complex Valued Signals</h1>
@@ -8088,9 +8087,9 @@ Peak power -55.6 dB/Hz
 <span class="nd">@printf</span> <span class="s">"SNR = %2.2f dB</span><span class="se">\n</span><span class="s">"</span> <span class="n">snr</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Avg Power of x = 0.00 dB
-Avg Power of noise = 0.04 dB
-SNR = -0.04 dB
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.00</span> <span class="n">dB</span>
+<span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">noise</span> <span class="o">=</span> <span class="mf">0.04</span> <span class="n">dB</span>
+<span class="n">SNR</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.04</span> <span class="n">dB</span>
 </code></pre></div></div>
 
 <div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">p_1</span> <span class="o">=</span> <span class="n">plot</span><span class="x">(</span><span class="n">Guide</span><span class="o">.</span><span class="n">title</span><span class="x">(</span><span class="s">"x (complex valued signal)"</span><span class="x">),</span> <span class="n">Guide</span><span class="o">.</span><span class="n">ylabel</span><span class="x">(</span><span class="s">"Amplitude"</span><span class="x">,</span> <span class="n">orientation</span><span class="o">=:</span><span class="n">vertical</span><span class="x">),</span> <span class="n">Guide</span><span class="o">.</span><span class="n">xlabel</span><span class="x">(</span><span class="s">"Time [s]"</span><span class="x">))</span>
@@ -16347,9 +16346,9 @@ fig.select("#img-ec3487b6-252")
 <span class="nd">@printf</span> <span class="s">"Peak power %2.1f dB/Hz"</span> <span class="n">findmax</span><span class="x">(</span><span class="mi">10</span> <span class="o">.*</span> <span class="n">log10</span><span class="o">.</span><span class="x">(</span><span class="n">xf</span><span class="x">))[</span><span class="mi">1</span><span class="x">]</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Measured Noise Power -86.1 dB/Hz
-Theoretical Noise Power -86.1 dB/Hz
-Peak power -52.1 dB/Hz
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Measured</span> <span class="n">Noise</span> <span class="n">Power</span> <span class="o">-</span><span class="mf">86.1</span> <span class="n">dB</span><span class="o">/</span><span class="n">Hz</span>
+<span class="n">Theoretical</span> <span class="n">Noise</span> <span class="n">Power</span> <span class="o">-</span><span class="mf">86.1</span> <span class="n">dB</span><span class="o">/</span><span class="n">Hz</span>
+<span class="n">Peak</span> <span class="n">power</span> <span class="o">-</span><span class="mf">52.1</span> <span class="n">dB</span><span class="o">/</span><span class="n">Hz</span>
 </code></pre></div></div>
 
 <p>Note here that the real and complex values noise signals have the same power (-86 dB/Hz) but the power of the complex tone is 3 dB (factor of 2) higher.  This is because there are two tones in the complex signal, the real part (in-phase) and the imaginary part (quadrature).</p>
@@ -16380,9 +16379,9 @@ Peak power -52.1 dB/Hz
 <span class="nd">@printf</span> <span class="s">"SNR = %2.2f dB</span><span class="se">\n</span><span class="s">"</span> <span class="n">snr</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Avg Power of x = 0.00 dB
-Avg Power of noise = -0.01 dB
-SNR = 0.01 dB
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.00</span> <span class="n">dB</span>
+<span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">noise</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.01</span> <span class="n">dB</span>
+<span class="n">SNR</span> <span class="o">=</span> <span class="mf">0.01</span> <span class="n">dB</span>
 </code></pre></div></div>
 
 <div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">p_1</span> <span class="o">=</span> <span class="n">plot</span><span class="x">(</span><span class="n">Guide</span><span class="o">.</span><span class="n">title</span><span class="x">(</span><span class="s">"x (complex valued signal)"</span><span class="x">),</span> <span class="n">Guide</span><span class="o">.</span><span class="n">ylabel</span><span class="x">(</span><span class="s">"Amplitude"</span><span class="x">,</span> <span class="n">orientation</span><span class="o">=:</span><span class="n">vertical</span><span class="x">),</span> <span class="n">Guide</span><span class="o">.</span><span class="n">xlabel</span><span class="x">(</span><span class="s">"Time [s]"</span><span class="x">))</span>
@@ -24506,9 +24505,9 @@ fig.select("#img-8f362280-274")
 <span class="nd">@printf</span> <span class="s">"SNR = %2.2f dB</span><span class="se">\n</span><span class="s">"</span> <span class="n">snr</span>
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Avg Power of x = 0.00 dB
-Avg Power of noise = -0.01 dB
-SNR = 0.01 dB
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.00</span> <span class="n">dB</span>
+<span class="n">Avg</span> <span class="n">Power</span> <span class="n">of</span> <span class="n">noise</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.01</span> <span class="n">dB</span>
+<span class="n">SNR</span> <span class="o">=</span> <span class="mf">0.01</span> <span class="n">dB</span>
 </code></pre></div></div>
 
 
