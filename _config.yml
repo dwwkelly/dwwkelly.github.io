@@ -10,7 +10,7 @@ url: https://dwwkelly.github.io/
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: ''
+baseurl: 'first-principles'
 
 # These can be '' to hide the Github or Gitlab nav buttons
 github: 'dwwkelly'
@@ -36,12 +36,12 @@ paginate: 3
 markdown: kramdown
 highlighter: rouge
 
-kramdown:
-  syntax_highlighter_opts:
-    default_lang: julia
-    span:
-      line_numbers: true
-      start_line: 1
+#kramdown:
+#  syntax_highlighter_opts:
+#    default_lang: julia
+#    span:
+#      line_numbers: true
+#      start_line: 1
 
 plugins: ['jekyll-paginate']
 
