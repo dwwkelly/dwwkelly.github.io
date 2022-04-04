@@ -1,3 +1,11 @@
+Steps
+=====
+
+jekyll clean
+jekyll build
+
+jekyll serve --baseurl=""
+
 Jekyll Clean
 ============
 
